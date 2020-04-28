@@ -5,6 +5,7 @@ body{
 
 
 #titolo+link{
+    
     position:relative;
 }
 
@@ -16,6 +17,8 @@ body{
     margin: auto;
     margin-top: 1.5%;
     font-size: 280%;
+    background-image: url("sfondotitle.jpg"); /* da decidere */
+    text-shadow: 2px 2px cornflowerblue; /* da decidere */
     
 }
 
@@ -23,10 +26,14 @@ body{
     
     list-style-type: none;
     display: inline;
-    margin-left:7%;
     font-size: 125%;
     font-family: sans-serif;
     text-align: center;
+    float: left;
+    margin:auto;
+    width: 33.3%;
+    border: 0.1px solid ;
+    color: darkslategray /* da decidere */
     
 }
 
@@ -37,37 +44,43 @@ body{
 
 #ul{
     
-    margin: auto;
-    width: 40%;
-    padding-top: 1.5%;
-    border: 1px solid black;
-    background-color: skyblue;
-    margin-top: 1.5%;
-    height: 35px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(88,162,197);
+    margin-top:1.5%;
+    margin-left: 20%; /* da decidere */
+    margin-right: 20%; /* da decidere */
 }
 
 a{
     
     text-decoration: none;
+    color:blanchedalmond;
+    
 }
 
 .linktitle:link{
-    color: black;
+
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
     
 }
 
 .linktitle:hover{
     
-    color: white;
+    background-color:rgb(44,122,170);
 }
 
 #div1{
    
     border: 1px solid skyblue;
-    background-color: white;
-    border: 1px solid white;
+    border-radius: 10px;
     margin: auto;
-    width: 80%; 
+    width: 82%; 
     margin-top: 2%;
     background-image: url("Sfondodiv.jpg");
 }
