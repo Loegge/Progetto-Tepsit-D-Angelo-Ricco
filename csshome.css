@@ -9,6 +9,7 @@ body{
     position:relative;
 }
 
+
 #titolo{
     
     text-align: center;
@@ -40,6 +41,12 @@ body{
 #linkmenu{
     
     list-style-type: "- ";
+    
+}
+
+
+.link_menu:hover{
+    color: aqua; /* da decidere */ 
 }
 
 #ul{
@@ -103,12 +110,60 @@ a{
     position: absolute;
     border:2.5px solid black;
     border-radius: 10px;
-    top:35%;
-    left:30%;
+    top:75%;
+    left:28%;
     width:57%;
     background-color: aqua;
 }
 
 #inutile{
-    margin-top:50%;
+    margin-top:70%;
 }
+
+/* Questi sono per itesti (esempio grosso o link finto) */
+.grassetto{
+    font-weight: bold;
+}
+
+.linkato{
+    color:blue;
+}
+
+.linkato:hover{
+    text-decoration: underline;
+}
+
+#immagine{
+    position: absolute;
+    top: 38%;
+    left:28%;
+}
+
+#immagine:hover{
+    width:40%;
+}
+
+
+#immaginekek{
+    position: absolute;
+    top:38%;
+    left: 59%;
+    
+
+}
+
+#immaginekek:hover{
+    width:30%;
+}
+
+
+#immagine_vera{
+    width:62%;
+    border: 3px solid black;
+}
+
+#immagine_vera2{
+    width: 61%;
+    border: 3px solid black;
+}
+
