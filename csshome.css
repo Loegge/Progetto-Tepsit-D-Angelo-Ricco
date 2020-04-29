@@ -110,7 +110,7 @@ a{
     position: absolute;
     border:2.5px solid black;
     border-radius: 10px;
-    top:75%;
+    top:55%;
     left:28%;
     width:57%;
     background-color: aqua;
@@ -120,7 +120,7 @@ a{
     margin-top:70%;
 }
 
-/* Questi sono per itesti (esempio grosso o link finto) */
+/* Questi sono per i testi (esempio grosso o link finto) */
 .grassetto{
     font-weight: bold;
 }
@@ -133,37 +133,46 @@ a{
     text-decoration: underline;
 }
 
+
+
+
+
 #immagine{
     position: absolute;
-    top: 38%;
+    top: 28%;
     left:28%;
+    margin-right: 60%;
 }
 
 #immagine:hover{
-    width:40%;
+     width:10%;
 }
+
+#immagine_vera{
+    width:165%;
+    border: 3px solid black;
+}
+
+
 
 
 #immaginekek{
     position: absolute;
-    top:38%;
-    left: 59%;
-    
-
+    top:28%;
+    left: 50%;
+    margin-right: 60%;
 }
 
 #immaginekek:hover{
-    width:30%;
-}
-
-
-#immagine_vera{
-    width:62%;
-    border: 3px solid black;
+    width:0.3%;
 }
 
 #immagine_vera2{
-    width: 61%;
+    width: 4370%;  /*4370*/
     border: 3px solid black;
 }
+
+
+
+
 
