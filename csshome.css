@@ -32,7 +32,7 @@ body{
     text-align: center;
     float: left;
     margin:auto;
-    width: 33.3%;
+    width: 24.97%;
     border: 0.1px solid ;
     color: darkslategray /* da decidere */
     
@@ -43,6 +43,7 @@ body{
     list-style-type: "- ";
     
 }
+
 
 
 .link_menu:hover{
@@ -82,8 +83,12 @@ a{
     background-color:rgb(44,122,170);
 }
 
+.linktitle:active{
+    background-color: #6ea0f0
+}
+
 #div1{
-   
+    
     border: 1px solid skyblue;
     border-radius: 10px;
     margin: auto;
@@ -129,6 +134,10 @@ a{
     color:blue;
 }
 
+#small{
+    font-size: 80%;
+}
+
 .linkato:hover{
     text-decoration: underline;
 }
@@ -138,7 +147,7 @@ a{
 
 
 #immagine{
-    position: absolute;
+    position: absolute;    /* absolute */
     top: 28%;
     left:28%;
     margin-right: 60%;
@@ -157,7 +166,7 @@ a{
 
 
 #immaginekek{
-    position: absolute;
+    position: absolute; /* absolute */
     top:28%;
     left: 50%;
     margin-right: 60%;
@@ -171,6 +180,31 @@ a{
     width: 4370%;  /*4370*/
     border: 3px solid black;
 }
+
+
+
+
+#immagine2{
+    position: absolute;    /* absolute */
+    top: 28%;
+    left:69.5%;
+    margin-right: 60%;
+}
+
+#immagine2:hover{
+    width: 0.3%;
+}
+
+#immagine2_kek{
+    width:4850%;
+    border: 3px solid black;
+}
+
+
+
+
+
+
 
 
 
