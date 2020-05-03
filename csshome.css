@@ -275,3 +275,15 @@ a{
     margin-top: 1%;
     margin-right: 1.5%;
 }
+
+#contenuto2{
+    
+    margin: auto;
+    margin-top: 3%;
+    border:2.5px solid black;
+    border-radius: 10px;
+    top:55%;
+    left:28%;
+    width:57%;
+    background-color: rgb(101,166,201);
+}
