@@ -66,6 +66,10 @@ a{
     
 }
 
+hr{
+   margin-left: -10%;
+    margin-right: 15%;
+}
 
 
 #div1{
@@ -106,7 +110,7 @@ a{
     position: absolute;
     border:2.5px solid black;
     border-radius: 10px;
-    top:35%;
+    top:33%;
     left:28%;
     width:57%;
     background-color: rgb(101,166,201);
@@ -155,11 +159,17 @@ a{
 }
 
 
+
+
+
+
+
+
 #logo{
     position: absolute;
     width: 8%;
     left: 12%;
-    top: 200%;
+    top: 203%;
 }
 
 
@@ -244,6 +254,45 @@ a{
     border: 2px solid black;
 }
 
+
+#iene{
+    width: 40%;
+    float:right;
+    margin-left: 2.5%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    border: 2px solid black;
+}
+
+
+#network{
+    width:40%;
+    float:right;
+     margin-left: 2.5%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    border: 2px solid black;
+}
+
+
+#hard{
+    width: 30%;
+    float:left;
+     margin-left: 2.5%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    border: 2px solid black;
+}
+
+
+#email{
+    width:35%;
+    float:left;
+    margin-left: 2.5%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    border: 2px solid black;
+}
 
 
 .btn {
